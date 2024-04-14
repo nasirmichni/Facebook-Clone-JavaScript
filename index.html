@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="link">
+    <a href="card.html">Student Card</a>
+  </div>
+    <div class="container">
+        <div class="sidebar">
+          <div class="profile">
+            <h4>Nasir Khan</h4>
+            <img src="images/Nasir.JPG" alt="Profile Picture">
+            
+          </div>
+          <ul class="menu">
+            <li>News Feed</li>
+            <br>
+            <li>Messages</li>
+            <br>
+            <li>Events</li>
+            <br>
+            <li>Friends</li>
+            <br>
+            <li>Groups</li>
+            <br>
+            <li>MarketPlace</li>
+            <br>
+            <li>Feeds</li>
+            <br>
+            <li>Video</li>
+            <br>
+            <li id="seeMore">See more</li>
+          </ul>
+        </div>
+        <div class="main-content">
+          <div class="post-section">
+            <textarea id="postDescription" placeholder="What's on your mind?"></textarea>
+            <br>
+            <input type="file" id="postImage" accept="image/*">
+            <button id="uploadButton">Post</button>
+            <div class="post-container">
+            <div id="postPreview"></div> <!-- This is where the image preview will be displayed -->
+          </div>
+          <div class="friends-section">
+            <h2>Friends</h2>
+            <ul id="friendsList">
+              <!-- Each friend item will contain an image and a name -->
+              <li>
+                <img src="images/1.jpg" alt="Friend 1">
+                <p>Amir Khan</p>
+                </li>
+                <li>
+              <img src="images/2.jpg" alt="Friend 2">
+                <p>Majid Ali</p>
+            </li>
+            <li>
+                <img src="images/3.jpg" alt="Friend 3">
+                  <p>Naeem Khan</p>
+              </li>
+              <li>
+                <img src="images/4.jpg" alt="Friend 4">
+                  <p>Hamid Khan</p>
+              </li>
+              <li>
+                <img src="images/5.jpg" alt="Friend 5">
+                  <p>Riaz Noor</p>
+              </li>
+              <li>
+                <img src="images/6.jpg" alt="Friend 6">
+                  <p>Said Alam</p>
+              </li>
+              <li>
+                <img src="images/7.jpg" alt="Friend 7">
+                  <p>Rashid</p>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    <script src="facebook.js"></script>
+</body>
+</html>

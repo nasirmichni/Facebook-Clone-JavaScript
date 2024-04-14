@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .link{
+    padding: 6px;
+    background-color: black;
+    
+    text-align: end;
+    
+  }
+  .link a{
+    color: white;
+    text-decoration:  none;
+  }
+  .link a:hover{
+    color: rgb(196, 226, 24);
+    stroke: none;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f0f3f3;
+    padding: 20px;
+  }
+  
+  .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 10px;
+    
+  }
+  
+  .menu li {
+    padding-bottom: 10px; /* Add space between menu items */
+    cursor: pointer;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .main-content {
+    flex: 1; /* Allow main content to grow and take up remaining space */
+    display: flex;
+    justify-content: center; /* Center the post section horizontally */
+  }
+  .post-container{
+    display: flex;
+    position: absolute; /* Change position to absolute */
+    top: 80px; /* Align to the top */
+    right: 0; /* Move to the right */
+    width: 750px;
+  }
+  #postPreview{
+    width: 250px;
+    height: 250px;
+  }
+  .post-section {
+    width: 100%; /* Ensure the post section takes up the entire width */
+  }
+  .post-section textarea {
+    width: 750px; /* Set the desired width for the textarea */
+  }
+ 
+  
+  .friends-section {
+    position: absolute; /* Change position to absolute */
+    top: 0; /* Align to the top */
+    right: 0; /* Move to the right */
+    background-color: #f0f3f3;
+    width: 270px;
+  }
+  
+  #friendsList {
+    list-style-type: none;
+    padding: 10px;
+  }
+  
+  #friendsList li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  #friendsList li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px 0 0; /* Adjust margin to remove space */
+  }
+  
+  #friendsList li span {
+    flex: 1;
+  }
+  
+  /* Adjust margin for the friends section to create space for the textarea */
+  .friends-section {
+    margin-bottom: 20px;
+  }
